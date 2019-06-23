@@ -13,6 +13,7 @@ public class person {
 	public static void main (String[] args) {
 		person p = new person("Peter",23);
 		System.out.println(p.name);
+		p.name = "PPPP";
 	}
 
 }
